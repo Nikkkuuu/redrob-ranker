@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Data (too large for git)
+data/candidates.jsonl
+data/candidates.jsonl.gz
+
+# Artifacts (generated)
+artifacts/embeddings/*.npy
+artifacts/models/*.pkl
+artifacts/indexes/*.bin
+artifacts/metadata/*.pkl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+submission.csv
+*.log
+build.log
