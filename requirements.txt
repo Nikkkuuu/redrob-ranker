@@ -1,41 +1,39 @@
+# Streamlit
+streamlit>=1.47.0
+
 # Core
-numpy==1.26.4
-pandas==2.2.1
-scipy==1.12.0
+numpy>=2.2.0
+pandas>=2.3.0
+scipy>=1.15.0
 
 # NLP & Embeddings
-sentence-transformers==2.7.0
-transformers==4.40.0
-torch==2.2.1
-tokenizers==0.19.1
+sentence-transformers>=5.0.0
+transformers>=4.53.0
+torch>=2.7.0
+tokenizers>=0.21.0
 
 # Search & Retrieval
-rank-bm25==0.2.2
-bm25s==0.2.0
-faiss-cpu==1.8.0
+rank-bm25>=0.2.2
+bm25s>=0.2.0
+faiss-cpu>=1.11.0
 
 # Learning to Rank
-lightgbm==4.3.0
-scikit-learn==1.4.1
+lightgbm>=4.6.0
+scikit-learn>=1.7.0
 
 # Text Processing
-nltk==3.8.1
-spacy==3.7.4
+nltk>=3.9
+spacy>=3.8
 
 # Data & Serialization
-orjson==3.9.15
-pyarrow==15.0.2
-pyyaml==6.0.1
+orjson>=3.11
+pyarrow>=21.0
+PyYAML>=6.0.2
 
 # Utilities
-tqdm==4.66.2
-joblib==1.3.2
-click==8.1.7
+tqdm>=4.67
+joblib>=1.5
+click>=8.2
 
 # Evaluation
-ranx==0.3.16
-
-# Optional: for notebook exploration
-# jupyter==1.0.0
-# matplotlib==3.8.3
-# seaborn==0.13.2
+ranx>=0.3.20
