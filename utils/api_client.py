@@ -9,7 +9,14 @@ from typing import Optional
 
 # For HF Spaces deployment, backend runs on same host
 # In development, defaults to localhost:8000
-API_BASE_URL = os.environ.get("API_BASE_URL", "http://127.0.0.1:8000/api")
+import streamlit as st
+
+API_BASE_URL = os.environ.get(
+    "API_BASE_URL",
+    "http://127.0.0.1:8000/api"
+)
+
+st.write("Current API URL:", API_BASE_URL)
 TIMEOUT = int(os.environ.get("API_TIMEOUT", "120"))
 MAX_RETRIES = 2
 RETRY_DELAY = 1.0
