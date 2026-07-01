@@ -1,5 +1,6 @@
 # Streamlit
 streamlit>=1.47.0
+plotly>=6.0.0
 
 # Core
 numpy>=2.2.0
